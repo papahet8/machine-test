@@ -46,11 +46,11 @@ Before running the application, ensure you have the following installed:
 3.  Create a `.env` file in the `server` directory with your database credentials:
     ```env
     PORT=5003
-    DB_USER=your_postgres_username
-    DB_HOST=localhost
-    DB_NAME=product_db
-    DB_PASSWORD=your_postgres_password
-    DB_PORT=5432
+DB_USER=postgres
+DB_HOST=localhost
+DB_NAME=sales_db
+DB_PASSWORD=123456
+DB_PORT=5432
     ```
 4.  Start the server:
     ```bash
