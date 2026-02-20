@@ -6,7 +6,7 @@ export default defineConfig({
     plugins: [react()],
     server: {
         proxy: {
-            '/api': 'http://localhost:5003'
+            '/api': 'https://machine-test-t6v8.onrender.com'
         }
     }
 })
